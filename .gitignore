@@ -1,18 +1,8 @@
 *.o
-*.so
-
-*.root
-
-__pycache__/
-
-*.pyc
-*.pyc
-
-.ipynb_checkpoints/
-
-build/
 
 data/
-out/
-output/
+data_Calibration/
+.dat
+.bin
+.root
 
