@@ -44,10 +44,10 @@ g++ FlexPET_EnergyCal_v2.cpp -o FlexPET_EnergyCal_v2 `root-config --cflags --gli
 | Argument | Description | Default |
 |----------|-------------|---------|
 | InputFolder | Folder containing .dat/.bin files | Required |
-| xmin | Minimum ToT ADC value | 100 |
-| xmax | Maximum ToT ADC value | 800 |
-| peakLT | Minimum peak area threshold | 100 |
-| peakHT | Maximum peak area threshold | 1000000 |
+| xmin | Minimum ToT ADC value | 100 | optional |
+| xmax | Maximum ToT ADC value | 800 | optional |
+| peakLT | Minimum peak area threshold | 100 | optional |
+| peakHT | Maximum peak area threshold | 1000000 | optional |
 
 ### Automatic Parameter Selection
 
