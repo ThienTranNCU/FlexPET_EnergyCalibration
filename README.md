@@ -1,8 +1,12 @@
 # FlexPET Full Energy Calibration Program
 
+## Author
+
+Tran Cong Thien / PraanaTech
+
 ## Overview
 
-This program performs energy calibration for the AS-PET (Academia Sinica PET) detector system. It combines two previously separate workflows into a single automated program:
+This program performs energy calibration for the dual-head FlexPET detector system. It combines two previously separate workflows into a single automated program:
 1. Peak analysis from binary measurement files (BinaryRead9)
 2. Energy calibration curve fitting (Read_BinOut_Calibrate)
 
@@ -174,7 +178,7 @@ The program reports the number of channels with Chi² < 1.0 and generates 2D Chi
 
 ## Detector Geometry
 
-The AS-PET detector uses a hierarchical addressing scheme:
+The FlexPET detector uses a hierarchical addressing scheme:
 - **GMSL ID (0-3)**: Identifies the GMSL serializer board
 - **STiC ID (0-3)**: Identifies the STiC ASIC on each GMSL
 - **Channel (0-63)**: Identifies the individual SiPM channel
@@ -207,6 +211,4 @@ The program includes channel mapping functions to convert from (GMSL, STiC, Chan
 - Some channels may have insufficient statistics
 - Check Singles_2D.png to identify dead or noisy channels
 
-## Author
 
-Tran Cong Thien / PraanaTech
